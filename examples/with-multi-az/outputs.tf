@@ -22,4 +22,3 @@ output "bucket_multi_az" {
   description = "Whether multi-AZ is enabled for the bucket"
   value       = module.obs_bucket.bucket_multi_az
 }
-

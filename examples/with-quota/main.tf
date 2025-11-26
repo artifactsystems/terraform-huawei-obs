@@ -1,5 +1,5 @@
 provider "huaweicloud" {
-  region = "tr-west-1"
+  region = local.region
 }
 
 locals {

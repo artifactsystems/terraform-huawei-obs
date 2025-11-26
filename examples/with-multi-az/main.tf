@@ -1,10 +1,10 @@
 provider "huaweicloud" {
-  region = "ap-southeast-2"
+  region = local.region
 }
 
 locals {
-  name   = "exaass-${basename(path.cwd)}"
-  region = "ap-southeast-2"
+  name   = "ex-${basename(path.cwd)}"
+  region = "tr-west-1"
 
   tags = {
     Example    = local.name
