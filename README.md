@@ -40,3 +40,9 @@ The following features are **not yet implemented** but are planned for future re
   - Documentation: [`huaweicloud_obs_bucket` - user_domain_names](https://registry.terraform.io/providers/huaweicloud/huaweicloud/latest/docs/resources/obs_bucket#user_domain_names)
 - [ ] **Parallel File System** (`parallel_fs`) - High-performance mode for HPC/Big Data workloads
   - Documentation: [`huaweicloud_obs_bucket` - parallel_fs](https://registry.terraform.io/providers/huaweicloud/huaweicloud/latest/docs/resources/obs_bucket#parallel_fs)
+
+## Contributing
+
+Report issues/questions/feature requests in the [issues](https://github.com/artifactsystems/terraform-huawei-obs/issues/new) section.
+
+Full contributing [guidelines are covered here](.github/CONTRIBUTING.md).
